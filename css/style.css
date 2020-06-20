@@ -4,6 +4,7 @@
   --title-text-color: #ffffff;
   --accent-color: #2196f3;
   --text-color: #757575;
+  --backgrnd-color: #f5f4fa;
 }
 body {
   background-color: var(--title-text-color);
@@ -125,7 +126,7 @@ a:focus {
 
 /* наша команда */
 .teamwork {
-  background-color: #f5f4fa;
+  background-color: var(--backgrnd-color);
   padding-top: 94px;
   padding-bottom: 94px;
   margin-top: 0;
@@ -195,6 +196,15 @@ a:focus {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.8;
 }
+/* .form::before {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  content: '11111';
+  margin-right: 10px;
+  background-image: url(../images/iconsend.svg);
+  background-size: contain;
+} */
 
 .copyright {
   width: 1200px;
@@ -385,6 +395,7 @@ a:focus {
 }
 .form > .button {
   margin-bottom: 0;
+  background-color: yellow;
   background-image: url(../images/iconsend.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -430,4 +441,14 @@ a:focus {
 }
 .social :not(:last-child) {
   margin-right: 0;
+}
+.features-list .item::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-color: var(--backgrnd-color);
+  background-image: url(../images/antenna.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
