@@ -447,8 +447,18 @@ a:focus {
   content: '';
   height: 120px;
   background-color: var(--backgrnd-color);
-  background-image: url(../images/antenna.png);
-  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+.icon-antena::before {
+  background-image: url(../images/antenna.svg);
+}
+.icon-clock::before {
+  background-image: url(../images/clock.svg);
+}
+.icon-diagram::before {
+  background-image: url(../images/diagram.svg);
+}
+.icon-astro::before {
+  background-image: url(../images/astronaut.svg);
 }
