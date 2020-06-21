@@ -395,7 +395,7 @@ a:focus {
 }
 .form > .button {
   margin-bottom: 0;
-  background-color: yellow;
+
   background-image: url(../images/iconsend.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -461,4 +461,19 @@ a:focus {
 }
 .icon-astro::before {
   background-image: url(../images/astronaut.svg);
+}
+
+.link {
+  display: inline-flex;
+}
+
+.tel::before {
+  content: '';
+
+  width: 10px;
+  margin-right: 10px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../im.svg);
 }
