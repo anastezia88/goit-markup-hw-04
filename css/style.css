@@ -372,10 +372,11 @@ a:focus {
 
 .icons {
   outline: 2px solid black;
-  padding-left: 32px;
-  padding-right: 32px;
+  /* padding-left: 32px;
+  padding-right: 32px; */
   margin-bottom: 24px;
   display: flex;
+  /* list-style: none; */
 }
 .clients-brand:not(:last-child) {
   margin-right: 30px;
@@ -440,13 +441,19 @@ a:focus {
 
 .wallpaper {
   background-color: var(--backgrnd-color);
-
   height: 120px;
-
-  padding-bottom: 25px;
   padding-top: 25px;
-  padding-right: 100px;
   padding-left: 100px;
   border: none;
   margin-bottom: 30px;
+}
+.insta-icon::hover {
+  background-color: ;
+  fill: hotpink;
+}
+.instagramm {
+  background-color: indigo;
+
+  padding: 0;
+  border: 0;
 }
