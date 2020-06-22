@@ -317,8 +317,6 @@ a:focus {
 }
 .features {
   padding-top: 94px;
-  padding-bottom: 94px;
-  border-bottom: 1px solid #ececec;
 }
 
 .site-nav {
@@ -393,13 +391,6 @@ a:focus {
   padding-top: 48px;
   padding-bottom: 28px;
 }
-.form > .button {
-  margin-bottom: 0;
-
-  background-image: url(../images/iconsend.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
 .select {
   display: flex;
@@ -442,38 +433,20 @@ a:focus {
 .social :not(:last-child) {
   margin-right: 0;
 }
-.features-list .item::before {
-  display: block;
-  content: '';
-  height: 120px;
-  background-color: var(--backgrnd-color);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.icon-antena::before {
-  background-image: url(../images/antenna.svg);
-}
-.icon-clock::before {
-  background-image: url(../images/clock.svg);
-}
-.icon-diagram::before {
-  background-image: url(../images/diagram.svg);
-}
-.icon-astro::before {
-  background-image: url(../images/astronaut.svg);
-}
 
 .link {
   display: inline-flex;
 }
 
-.tel::before {
-  content: '';
+.wallpaper {
+  background-color: var(--backgrnd-color);
 
-  width: 10px;
-  margin-right: 10px;
+  height: 120px;
 
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../im.svg);
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-left: 100px;
+  border: none;
+  margin-bottom: 30px;
 }
