@@ -5,6 +5,7 @@
   --accent-color: #2196f3;
   --text-color: #757575;
   --backgrnd-color: #f5f4fa;
+  --link-color: #afb1b8;
 }
 body {
   background-color: var(--title-text-color);
@@ -118,10 +119,8 @@ a:focus {
   line-height: 1.2;
   text-transform: uppercase;
   color: var(--title-text-color);
-  text-decoration: none;
 
-  text-align: center;
-  display: block;
+  display: flex;
 }
 
 /* наша команда */
@@ -360,6 +359,7 @@ a:focus {
 
 .clients {
   display: flex;
+  justify-content: space-around;
 }
 
 .clients-brand:not(:last-child) {
@@ -420,7 +420,7 @@ a:focus {
   margin-bottom: 30px;
 }
 .social-icons {
-  fill: #afb1b8;
+  fill: var(--link-color);
 
   display: flex;
   margin-right: 10px;
@@ -474,3 +474,19 @@ a:focus {
 /* .flex {
   display: flex;
 } */
+.company {
+  width: 170px;
+  height: 90px;
+
+  border: 1px solid var(--link-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  fill: var(--link-color);
+}
+.company:focus,
+.company:hover {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
