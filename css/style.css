@@ -320,6 +320,7 @@ a:focus {
 }
 .auth-nav {
   display: flex;
+  align-items: center;
 }
 .auth-nav .item:not(:last-child) {
   margin-right: 30px;
@@ -489,4 +490,15 @@ a:focus {
 .company:hover {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
+}
+.envelope:focus,
+.envelope:hover {
+  fill: var(--accent-color);
+}
+.tel:focus,
+.tel:hover {
+  fill: var(--accent-color);
+}
+.mail-tel {
+  margin-right: 10px;
 }
