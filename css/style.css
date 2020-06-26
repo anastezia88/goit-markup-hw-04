@@ -190,6 +190,7 @@ a:focus {
   text-transform: uppercase;
   line-height: 1.14;
   display: block;
+  margin-bottom: 20px;
 }
 
 .input {
@@ -470,11 +471,10 @@ a:focus {
   background-color: inherit;
   margin-right: 12px;
   display: flex;
-  justify-content: space-between;
+
+  padding: 15px 16px;
 }
-/* .flex {
-  display: flex;
-} */
+
 .company {
   width: 170px;
   height: 90px;
@@ -501,4 +501,9 @@ a:focus {
 }
 .mail-tel {
   margin-right: 10px;
+}
+.style {
+  display: inline-flex;
+  align-items: start;
+  text-align: start;
 }
