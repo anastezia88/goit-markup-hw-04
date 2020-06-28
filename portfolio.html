@@ -36,11 +36,17 @@
         <ul class="auth-nav list">
           <li class="item">
             <a href="mailto:info@devstudio.com" class="link envelope">
+              <svg class="mail-tel" width="16" height="11">
+                <use href="./images/symbol-defs.svg#envelope"></use>
+              </svg>
               info@devstudio.com
             </a>
           </li>
           <li class="item">
             <a href="tel:+380961111111" class="link tel">
+              <svg class="mail-tel" width="10" height="15">
+                <use href="./images/symbol-defs.svg#tel"></use>
+              </svg>
               +38 096 111 11 11
             </a>
           </li>
@@ -68,7 +74,7 @@
 
       <!--примеры работ-->
       <section class="works">
-        <ul class="abc">
+        <ul class="cardset">
           <li class="card">
             <a href="">
               <img src="./images/img1.jpg" alt="открытый ноут" />
@@ -200,23 +206,53 @@
         <div>
           <b>присоединяйтесь</b>
           <!--иконки соцсетей-->
-          <ul>
-            <li>facebook link<a href="" aria-label=""> </a></li>
-            <li>instagram<a href="" aria-label=""></a></li>
-            <li>twitter<a href="" aria-label=""></a></li>
-            <li>linkid<a href="" aria-label=""></a></li>
+          <ul class="social-footer">
+            <li>
+              <a class="social-icons" href="" aria-label="">
+                <svg class="shadow" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#insta"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-icons" href="" aria-label="">
+                <svg class="shadow" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-icons" href="" aria-label="">
+                <svg class="shadow" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-icons" href="" aria-label="">
+                <svg class="shadow" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#linkid"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
         </div>
+        <div>
+          <b>подпишитесь на рассылку</b>
+          <div class="style">
+            <button class="form">
+              E-mail
+            </button>
 
-        <b>подпишитесь на рассылку</b>
-        <b
-
-        <form class="form" action="">
-          <input type="email" value="E-mail" />
-          <input type="submit" value="Подписаться" class="button" />
-        </form>
+            <button class="button">
+              Подписаться
+              <svg width="24" height="24">
+                <use href="./images/symbol-defs.svg#iconsend"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
-      <p class="copyright">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
